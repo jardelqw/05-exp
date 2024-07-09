@@ -1,0 +1,88 @@
+#grid {
+  /* border: solid white; */
+  width:1040px;
+  height: 584px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  
+  display: grid;
+  grid-template-areas: 
+  "um dois tres"
+  "quatro cinco seis";
+  gap: 16px;
+
+
+
+
+
+
+.um{
+  grid-area: um;
+
+}
+
+.dois{
+  grid-area: dois;
+
+}
+.tres{
+  grid-area: tres;
+  
+}
+.quatro{
+  grid-area: quatro;
+  
+}
+
+.cinco{
+  grid-area: cinco;
+
+}
+
+.seis{
+
+  grid-area: seis;
+}
+
+}
+
+.numeros{
+  
+  border-radius:12px;
+  height: 280px;
+  width: 330px;
+
+  background-color: var(--color-gray-300);
+  
+  h4{
+    padding-inline: 16px;
+    font:var(--text-sm);
+    color:var(--color-gray-600);
+  
+  }
+
+  p{
+    padding-inline: 16px;
+    font: var(--text-sm-maven);
+    color: var(--color-gray-500);
+    text-align: start;
+  }
+
+  img{
+
+    border-radius: 8px;
+    margin: 12px;
+    width: 306px;
+    height: 156px;
+
+  }
+  
+}
+
+.numeros:hover{
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+  border-radius: 12px;
+}

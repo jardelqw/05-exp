@@ -1,0 +1,97 @@
+#contact{
+  background-image: url(../assets/img/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 787px;
+  width: 100%;
+  object-fit: cover;
+  
+  
+  background-position: center;
+ 
+  
+  header{
+    
+    /* border: solid; */
+
+
+    margin: 128px auto 48px;
+    gap: 8px;
+  
+    h2{
+      font:var(--subtitle);
+      color: var(--color-purple);
+    }
+    strong{
+      font: var(--text-md);
+      color: var(--color-gray-600);
+    }
+  
+    h3{
+      font: var(--text-md-maven);
+      color: var(--color-gray-500);
+    }
+  }
+
+  ul{
+
+    a {text-decoration: none;
+    }
+
+    li{
+      
+      display: flex;
+     
+      background-color: var(--color-gray-300);
+      width: 400px;
+      height: 68px;
+      border-radius: 8px;
+      margin:0 auto 16px;
+      list-style: none;
+      align-items: center;
+      /* justify-content: space-around; */
+     
+     p{
+       margin: 23px 12px 23px 12px;   
+       font: var(--text-md-maven);
+       color: var(--color-gray-500);
+     }
+
+      img{
+        margin: 20px 0 20px 20px;
+        width: 28px;
+        height: 28px;
+        
+        /* align-self: center; */
+      }
+
+      .seta{
+        margin: 24px 24px 24px auto;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+  li:hover{
+    border: 1px solid var(--color-blue);
+    border-radius: 8px;
+  }
+
+  .hover-1:hover{
+    opacity: 1;
+
+  /* }
+  .hover-2{
+
+  }
+  .hover-3{
+
+  }
+  .hover-4{
+
+  } */
+
+}
+
+
+}

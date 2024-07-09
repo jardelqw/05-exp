@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  :root {
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+    --color-gray-100: #0d0e11;
+    --color-gray-200: #16181D;
+    --color-gray-300: #292C34;
+    --color-gray-400: #878EA1;
+    --color-gray-500: #C0C4CE;
+    --color-gray-600: #E2E4E9;
+    --font-family-primary: 'Asap', sans-serif; 
+    --font-family-secondary: 'Inconsolata', sans-serif;
+    --font-family-tri: 'Maven Pro', sans-serif; 
+    --text-lg: 800 56px/120% var(--font-family-primary); 
+    --text-md: 800 24px/120% var(--font-family-primary);
+    --text-sm: 800 16px/120% var(--font-family-primary);
+    --subtitle: 400 20px/120% var(--font-family-secondary);
+    --text-md-maven: 400 16px/140% var(--font-family-tri);
+    --text-sm-maven: 400 14px/140% var(--font-family-tri); 
+  
+    --hover-1: url(../assets/icons/LinkedinLogoa.svg);
+  }
+
+  
+  body{
+
+    background-color: var(--color-gray-200);
+  }
+
